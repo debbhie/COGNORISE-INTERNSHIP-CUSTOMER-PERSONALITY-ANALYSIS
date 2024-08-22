@@ -113,6 +113,8 @@ The dataset was clean as no null values or incorrect spellings were found.
 76-85: 107 customers
 86-100: 0 customers
 This shows that the majority of the customers are between the ages of 36 and 75, with the highest concentration in the 46-55 age group. There are no customers in the 0-18 and 19-25 age ranges, indicating that younger people are not part of this customer base. This could influence marketing strategies to target middle-aged and older individuals.
+Age group visualization
+![Screenshot 2024-08-22 174631](https://github.com/user-attachments/assets/601b3b29-5833-4da7-97bb-b4aaccc0deed)
 
 * Education Level Distribution
 Graduation: 1,127 customers
@@ -121,6 +123,8 @@ Master: 370 customers
 2n Cycle: 203 customers
 Basic: 54 customers
 This breakdown shows that most customers have a higher education level, with over half of them being graduates. A significant number also hold PhDs and Master’s degrees. This suggests that the customer base is generally well-educated, which might influence the type of products or services marketed to them.
+Education level visualization
+![Screenshot 2024-08-22 174720](https://github.com/user-attachments/assets/379c24cb-4100-4de8-89b6-4cdd776871a8)
 
 * Marital Status Distribution
 Married: 864 customers
@@ -132,6 +136,8 @@ Alone: 3 customers
 Absurd: 2 customers
 YOLO: 2 customers
 The majority of customers are married or in a relationship (together). There is also a significant number of single and divorced customers. The presence of unusual categories like “Alone,” “Absurd,” and “YOLO” suggests some data anomalies or creative entries, which might need further cleaning or consideration when analyzing the marital status segment.
+Marital status visualization
+![Screenshot 2024-08-22 174814](https://github.com/user-attachments/assets/2403a1d4-e67d-4025-ae35-4e81d5640e30)
 
 * Average Recency is 49.11 days. The average recency of 49.11 days indicates that, on average, customers last made a purchase approximately 49 days ago. This metric is critical for understanding customer engagement and can help identify potential churn. A lower recency implies more recent customer engagement, while a higher value could indicate a risk of churn.
 
@@ -146,6 +152,7 @@ The majority of customers are married or in a relationship (together). There is 
 * Average Number of Store Purchases: 5.79
   
 * Average Number of Web Visits per Month: 5.32
+![Screenshot 2024-08-22 174944](https://github.com/user-attachments/assets/6b67f72e-a6d8-4c9d-b363-efde9ee4d05f)
 
 * Average Amount Spent on Products
 - Wines: $303.94
@@ -164,10 +171,13 @@ This shows the average amount each customer spends on different product categori
 - MntSweetProducts: $60,621
 - MntGoldProds: $98,609
 This metric reflects the total revenue generated from each product category across all customers. Wines contribute the most to total revenue, followed by meat products. Fruits, sweets, and fish generate lower revenue, which aligns with the lower average spending seen earlier. This information can help in prioritizing products for promotions or stocking decisions.
+Total revenue per product visualization
+![Screenshot 2024-08-22 175113](https://github.com/user-attachments/assets/65dda43f-0262-439d-bad1-ddab30d6bfa5)
 
 * Correlation Matrix Between Product Categories
 The correlation matrix shows how spending in one product category relates to spending in another. For example, MntMeatProducts and MntFishProducts have a strong positive correlation (0.568402), indicating that customers who spend more on meat also tend to spend more on fish.
 MntFruits and MntSweetProducts also show a positive correlation (0.567164), suggesting that customers who buy fruits may also buy sweets.
+![Screenshot 2024-08-22 175154](https://github.com/user-attachments/assets/bf1c59b3-3031-43c4-a73d-b3ae8d090921)
 
 * Campaign Acceptance Rate
 - AcceptedCmp1: 6.43%
@@ -250,16 +260,20 @@ The churn rate of 54.73% indicates that more than half of the customers are at r
 - Total Web Purchases: 9,150
 - Total Catalog Purchases: 5,963
 - Total Store Purchases: 12,970
+  ![Screenshot 2024-08-22 175255](https://github.com/user-attachments/assets/0d3718e1-3962-454d-93d1-9c063d140ec4)
+  
 - Average Order Value (AOV) for Web: $148.30
 - Average Order Value (AOV) for Catalog: $227.57
 - Average Order Value (AOV) for Store: $104.63
 These statistics show that store purchases are the most frequent, followed by web and catalog purchases. However, the catalog purchases have the highest AOV ($227.57), meaning that customers spend more on average when ordering through catalogs. The lower AOV for store purchases ($104.63) might be due to smaller, more frequent transactions.
+![Screenshot 2024-08-22 175340](https://github.com/user-attachments/assets/cff88754-8cc2-4566-ae7a-b69a688f366a)
 
 * Return on Investment (ROI)
 - ROI for Web: 88,065.18%
 - ROI for Catalog: 150,998.52%
 - ROI for Store: 88,814.83%
 The extremely high ROI percentages suggest that the campaigns have been highly effective in generating revenue relative to their cost, with the catalog channel being the most profitable. However, these values may need further validation to ensure they accurately reflect the costs and revenues.
+![Screenshot 2024-08-22 175447](https://github.com/user-attachments/assets/5e13a1d4-1f0e-404a-84c1-8544629ae644)
 
 * Relationship Between Campaign and Complaint Response
 Cross-Tabulation Between Complaint and Campaign Response:
@@ -270,6 +284,9 @@ Did Not Complain and Did Not Respond: 90.48%
 Customers who complained are less likely to respond to campaigns (9.52% response rate) compared to those who did not complain. This highlights that addressing complaints is crucial for improving campaign effectiveness.
 Pearson’s Correlation Between Complaint and Campaign Response: -0.03
 A weak negative correlation (-0.03) indicates that there is almost no relationship between complaints and campaign response. This suggests that the fact of complaining does not strongly predict whether a customer will respond to a campaign.
+
+* Demographic Analysis
+![Screenshot 2024-08-22 175528](https://github.com/user-attachments/assets/fa603fd7-71f1-453d-b483-d8c8d7b6d26e)
 
 ## INSIGHTS
 * Age Group: The highest response rates are seen in the 26-35 (34.43%) and 76-85 (42.06%) age groups. The response rate tends to decrease in the 36-65 age range, with a slight increase in the older segment.
