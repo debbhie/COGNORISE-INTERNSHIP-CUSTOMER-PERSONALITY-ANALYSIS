@@ -113,7 +113,6 @@ The dataset was clean as no null values or incorrect spellings were found.
 76-85: 107 customers
 86-100: 0 customers
 This shows that the majority of the customers are between the ages of 36 and 75, with the highest concentration in the 46-55 age group. There are no customers in the 0-18 and 19-25 age ranges, indicating that younger people are not part of this customer base. This could influence marketing strategies to target middle-aged and older individuals.
-Age group visualization
 ![Screenshot 2024-08-22 174631](https://github.com/user-attachments/assets/601b3b29-5833-4da7-97bb-b4aaccc0deed)
 
 * Education Level Distribution
@@ -123,7 +122,6 @@ Master: 370 customers
 2n Cycle: 203 customers
 Basic: 54 customers
 This breakdown shows that most customers have a higher education level, with over half of them being graduates. A significant number also hold PhDs and Master’s degrees. This suggests that the customer base is generally well-educated, which might influence the type of products or services marketed to them.
-Education level visualization
 ![Screenshot 2024-08-22 174720](https://github.com/user-attachments/assets/379c24cb-4100-4de8-89b6-4cdd776871a8)
 
 * Marital Status Distribution
@@ -136,7 +134,6 @@ Alone: 3 customers
 Absurd: 2 customers
 YOLO: 2 customers
 The majority of customers are married or in a relationship (together). There is also a significant number of single and divorced customers. The presence of unusual categories like “Alone,” “Absurd,” and “YOLO” suggests some data anomalies or creative entries, which might need further cleaning or consideration when analyzing the marital status segment.
-Marital status visualization
 ![Screenshot 2024-08-22 174814](https://github.com/user-attachments/assets/2403a1d4-e67d-4025-ae35-4e81d5640e30)
 
 * Average Recency is 49.11 days. The average recency of 49.11 days indicates that, on average, customers last made a purchase approximately 49 days ago. This metric is critical for understanding customer engagement and can help identify potential churn. A lower recency implies more recent customer engagement, while a higher value could indicate a risk of churn.
@@ -171,7 +168,6 @@ This shows the average amount each customer spends on different product categori
 - MntSweetProducts: $60,621
 - MntGoldProds: $98,609
 This metric reflects the total revenue generated from each product category across all customers. Wines contribute the most to total revenue, followed by meat products. Fruits, sweets, and fish generate lower revenue, which aligns with the lower average spending seen earlier. This information can help in prioritizing products for promotions or stocking decisions.
-Total revenue per product visualization
 ![Screenshot 2024-08-22 175113](https://github.com/user-attachments/assets/65dda43f-0262-439d-bad1-ddab30d6bfa5)
 
 * Correlation Matrix Between Product Categories
